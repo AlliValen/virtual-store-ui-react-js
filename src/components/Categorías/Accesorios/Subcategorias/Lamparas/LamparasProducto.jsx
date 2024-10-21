@@ -38,11 +38,10 @@ const PuffProducto = () => {
     // Renderiza el componente. Muestra un título y un grid de productos que son mapeados desde el array de productos.
     return (
         <div className="puffs-productos">
-            {/* Títulos de la sección */}
+            <div className="title-container"> {/* Contenedor del título */}
             <h1>Accesorios</h1>
-            <h1>Puffs</h1>
             <div className="decorative-line"></div> {/* Línea decorativa */}
-            {/* Renderiza la lista de productos dentro de un contenedor de grid. */}
+            </div>
             <div className="productos-grid">
                 {/* Recorre la lista de productos y para cada uno renderiza un componente PuffItems */}
                 {productos.map((producto) => (
