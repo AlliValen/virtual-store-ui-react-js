@@ -2,6 +2,7 @@
 import React from 'react';
 // Importa el componente LibreroItem que se usará para renderizar cada producto.
 import LibreroItem from './LibreroItem';
+import './Librero.css';
 
 // Define el componente LibreroProducto que lista todos los productos de tipo Libreros.
 const LibreroProducto = () => {
