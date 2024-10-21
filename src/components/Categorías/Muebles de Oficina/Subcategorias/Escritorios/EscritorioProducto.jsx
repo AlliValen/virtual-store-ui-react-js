@@ -1,7 +1,8 @@
 // Importa React para definir un componente funcional.
 import React from 'react';
 // Importa el componente EscritorioItem que se usará para renderizar cada producto.
-import EscritorioItem from './EscritorioItem';
+import EscritorioItem from './EscritorioItem';}
+import './Escritorio.css';
 
 // Define el componente EscritorioProducto que lista todos los productos de tipo Escritorios.
 const EscritorioProducto = () => {
