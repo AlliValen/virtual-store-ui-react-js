@@ -49,6 +49,8 @@ body {
 .product-card img {
     width: 100%;
     height: auto;
+    object-fit: cover;
+    aspect-ratio: 1920 / 1361;
     border-bottom: 1px solid #eee;
 }
 
@@ -105,7 +107,7 @@ body {
 .decorative-line {
     width: 10%; /* Ajusta el ancho de la línea */
     height: 2px; /* Grosor de la línea */
-    background-color: #ffffff; /* Color de la línea, puedes cambiarlo */
+    background-color: #ffffff; /* Color de la línea*/
     margin: 10px auto; /* Centra la línea y agrega espacio arriba y abajo */
-    border-radius: 5px; /* Bordes redondeados en la línea */
+    border-radius: 5px; /* Bordes redondeados en la línea */ 
 }
