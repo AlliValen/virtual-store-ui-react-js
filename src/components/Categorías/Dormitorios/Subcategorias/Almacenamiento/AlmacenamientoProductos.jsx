@@ -1,7 +1,22 @@
 // Importa React para definir un componente funcional.
 import React from 'react';
-// Importa el componente AlmacenamientoItem que se usará para renderizar cada producto.
-import AlmacenamientoItem from './AlmacenamientoItem';
+import './almacenamiento.css'; // Importa el archivo CSS correctamente
+import { FaShoppingCart } from 'react-icons/fa';
+
+// Componente ProductoItem
+const ProductoItem = ({ producto }) => {
+    return (
+        <div className="product-card">
+            <img src={producto.img} alt={producto.nombre} />
+            <h3>{producto.nombre}</h3>
+            <p>{producto.descripcion}</p>
+            <p>${producto.precio}</p>
+            <button className="add-to-cart-button">
+                <FaShoppingCart /> Agregar al carrito
+            </button>
+        </div>
+    );
+};
 
 // Define el componente AlmacenamientoProducto que lista todos los productos de tipo Almacenamiento.
 const AlmacenamientoProductos = () => {
@@ -25,13 +40,14 @@ const AlmacenamientoProductos = () => {
     // Renderiza el componente. Muestra un título y un grid de productos que son mapeados desde el array de productos.
     return (
         <div className="almacenamiento-productos">
-            {/* Títulos de la sección */}
+            <div className="title-container"> {/* Contenedor del título */}
             <h1>Almacenamiento</h1>
-            {/* Renderiza la lista de productos dentro de un contenedor de grid. */}
+            <div className="decorative-line"></div> {/* Línea decorativa */}
+            </div>
             <div className="productos-grid">
                 {/* Recorre la lista de productos y para cada uno renderiza un componente AlmacenamientoItem */}
                 {productos.map((producto) => (
-                    <AlmacenamientoItem key={producto.id} producto={producto} />
+                    <ProductoItem key={producto.id} producto={producto} />
                 ))}
             </div>
         </div>
