@@ -21,18 +21,18 @@ const ProductoItem = ({ producto }) => {
 const SillasProducto = () => {
     // Define una lista de productos con sus propiedades id, nombre, precio e imagen.
     const productos = [
-        { id: 1, nombre: '  ', precio: 500, img: require('./img/  ') },
-        { id: 2, nombre: '  ', precio: 400, img: require('./img/  ') },
-        { id: 3, nombre: '  ', precio: 300, img: require('./img/  ') },
-        { id: 4, nombre: '  ', precio: 450, img: require('./img/  ') },
-        { id: 5, nombre: '  ', precio: 350, img: require('./img/  ') },
-        { id: 6, nombre: '  ', precio: 600, img: require('./img/  ') },
-        { id: 7, nombre: '  ', precio: 600, img: require('./img/  ') },
-        { id: 8, nombre: '  ', precio: 600, img: require('./img/  ') },
-        { id: 9, nombre: '  ', precio: 600, img: require('./img/  ') },
-        { id: 10, nombre: '  ', precio: 600, img: require('./img/  ') },
-        { id: 11, nombre: '  ', precio: 600, img: require('./img/  jpg') },
-        { id: 12, nombre: '  ', precio: 600, img: require('./img/  ') },
+        { id: 1, nombre: 'Silla Gamer Blanca', precio: 500, img: require('./img/silla_ gamer_blanca.jpg') },
+        { id: 2, nombre: 'Silla Gris con Ruedas', precio: 400, img: require('./img/silla_ gris_ruedas.jpg') },
+        { id: 3, nombre: 'Silla Acolchada', precio: 300, img: require('./img/silla_acolchada.jpg') },
+        { id: 4, nombre: 'Silla Blanca con Ruedas', precio: 450, img: require('./img/silla_blanca_ruedas.jpg') },
+        { id: 5, nombre: 'Silla Gamer Negra', precio: 350, img: require('./img/silla_gamer_negra.jpg') },
+        { id: 6, nombre: 'Silla Gamer Rosada', precio: 600, img: require('./img/silla_gamer_rosada.jpg') },
+        { id: 7, nombre: 'Silla Gris', precio: 600, img: require('./img/silla_gris.jpg') },
+        { id: 8, nombre: 'Silla Negra', precio: 600, img: require('./img/silla_negra.jpg') },
+        { id: 9, nombre: 'Silla Negra con Ruedas', precio: 600, img: require('./img/silla_negra_ruedas.jpg') },
+        { id: 10, nombre: 'Silla Redonda Blanca', precio: 600, img: require('./img/silla_redonda_blanca.jpg') },
+        { id: 11, nombre: 'Silla Redonda Negra', precio: 600, img: require('./img/silla_redonda_negra.jpg') },
+        { id: 12, nombre: 'Silla Sencilla', precio: 600, img: require('./img/silla_sencilla.jpg') },
 
     ];
 
