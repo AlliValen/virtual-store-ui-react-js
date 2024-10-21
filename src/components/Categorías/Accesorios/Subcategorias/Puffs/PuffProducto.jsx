@@ -1,8 +1,22 @@
 // Importa React para definir un componente funcional.
 import React from 'react';
-// Importa el componente PuffItems que se usará para renderizar cada producto.
-import PuffItems from './PuffItems';
+import './stylepuff.css'; // Importa el archivo CSS correctamente
+import { FaShoppingCart } from 'react-icons/fa';
 
+// Componente ProductoItem
+const ProductoItem = ({ producto }) => {
+    return (
+        <div className="product-card">
+            <img src={producto.img} alt={producto.nombre} />
+            <h3>{producto.nombre}</h3>
+            <p>{producto.descripcion}</p>
+            <p>${producto.precio}</p>
+            <button className="add-to-cart-button">
+                <FaShoppingCart /> Agregar al carrito
+            </button>
+        </div>
+    );
+};
 // Define el componente PuffProducto que lista todos los productos de tipo Puffs.
 const PuffProducto = () => {
     // Define una lista de productos con sus propiedades id, nombre, precio e imagen.
@@ -27,11 +41,12 @@ const PuffProducto = () => {
             {/* Títulos de la sección */}
             <h1>Accesorios</h1>
             <h1>Puffs</h1>
+            <div className="decorative-line"></div> {/* Línea decorativa */}
             {/* Renderiza la lista de productos dentro de un contenedor de grid. */}
             <div className="productos-grid">
                 {/* Recorre la lista de productos y para cada uno renderiza un componente PuffItems */}
                 {productos.map((producto) => (
-                    <PuffItems key={producto.id} producto={producto} />
+                    <ProductoItem key={producto.id} producto={producto} />
                 ))}
             </div>
         </div>
