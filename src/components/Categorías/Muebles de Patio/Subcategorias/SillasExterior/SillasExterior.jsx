@@ -24,7 +24,7 @@ const SillasExteriorProducto = () => {
         { id: 1, nombre: 'Banca Blanca de Metal', precio: 500, img: require('./img/banca_blanca_metal.jpg') },
         { id: 2, nombre: 'Banca Colgante', precio: 400, img: require('./img/banca_colgante.jpg') },
         { id: 3, nombre: 'Banca Mesedora', precio: 300, img: require('./img/banca_mesedora.jpg') },
-        { id: 4, nombre: 'Banca de Metal Madera', precio: 450, img: require('./img/banca_metal_madera.jpg') },
+        { id: 4, nombre: 'Banca de Metal y Madera', precio: 450, img: require('./img/banca_metal_madera.jpg') },
         { id: 5, nombre: 'Juego de Sillas Colgantes', precio: 350, img: require('./img/juego_sillas_colgantes.jpg') },
         { id: 6, nombre: 'Mesedora de Madera', precio: 600, img: require('./img/mesedora_madera.jpg') },
         { id: 7, nombre: 'Mesedora Redonda', precio: 600, img: require('./img/mesedora_redonda.jpg') },
