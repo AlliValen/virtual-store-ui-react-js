@@ -1,6 +1,6 @@
 // Importa React para definir un componente funcional.
 import React from 'react';
-import './camas.css'; // Importa el archivo CSS correctamente
+import './Camas.css'; // Importa el archivo CSS correctamente
 import { FaShoppingCart } from 'react-icons/fa';
 
 // Componente ProductoItem
@@ -38,7 +38,7 @@ const CamasProductos = () => {
 
     // Renderiza el componente. Muestra un título y un grid de productos que son mapeados desde el array de productos.
     return (
-        <div className="camas-productos">
+        <div className="sala-productos">
            <div className="title-container"> {/* Contenedor del título */}
             <h1>Camas</h1>
             <div className="decorative-line"></div> {/* Línea decorativa */}
