@@ -1,6 +1,6 @@
 // Importa React para definir un componente funcional.
 import React from 'react';
-import './sillas.css'; // Importa el archivo CSS correctamente
+import './Sillas.css'; // Importa el archivo CSS correctamente
 import { FaShoppingCart } from 'react-icons/fa';
 
 
