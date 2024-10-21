@@ -21,18 +21,18 @@ const ProductoItem = ({ producto }) => {
 const ToldosProducto = () => {
     // Define una lista de productos con sus propiedades id, nombre, precio e imagen.
     const productos = [
-        { id: 1, nombre: '  ', precio: 500, img: require('./img/  ') },
-        { id: 2, nombre: '  ', precio: 400, img: require('./img/  ') },
-        { id: 3, nombre: '  ', precio: 300, img: require('./img/  ') },
-        { id: 4, nombre: '  ', precio: 450, img: require('./img/  ') },
-        { id: 5, nombre: '  ', precio: 350, img: require('./img/  ') },
-        { id: 6, nombre: '  ', precio: 600, img: require('./img/  ') },
-        { id: 7, nombre: '  ', precio: 600, img: require('./img/  ') },
-        { id: 8, nombre: '  ', precio: 600, img: require('./img/  ') },
-        { id: 9, nombre: '  ', precio: 600, img: require('./img/  ') },
-        { id: 10, nombre: '  ', precio: 600, img: require('./img/  ') },
-        { id: 11, nombre: '  ', precio: 600, img: require('./img/  ') },
-        { id: 12, nombre: '  ', precio: 600, img: require('./img/  ') },
+        { id: 1, nombre: 'Toldo Ordinario', precio: 500, img: require('./img/toldo.jpg') },
+        { id: 2, nombre: 'Toldo Azul', precio: 400, img: require('./img/toldo_azul.jpg') },
+        { id: 3, nombre: 'Toldo Café', precio: 300, img: require('./img/toldo_cafe.jpg') },
+        { id: 4, nombre: 'Toldo Colgante', precio: 450, img: require('./img/toldo_colgante.jpg') },
+        { id: 5, nombre: 'Toldo Negro', precio: 350, img: require('./img/toldo_negro.jpg') },
+        { id: 6, nombre: 'Toldo Sencillo Negro', precio: 600, img: require('./img/toldo_negro_.jpg') },
+        { id: 7, nombre: 'Toldo Rectangular', precio: 600, img: require('./img/toldo_rectangular.jpg') },
+        { id: 8, nombre: 'Toldo Rojo', precio: 600, img: require('./img/toldo_rojo.jpg') },
+        { id: 9, nombre: 'Toldo Rojo Rectangular', precio: 600, img: require('./img/toldo_rojo_rectangular.jpg') },
+        { id: 10, nombre: 'Toldo Sencillo', precio: 600, img: require('./img/toldo_sencillo.jpg') },
+        { id: 11, nombre: 'Toldo Verde', precio: 600, img: require('./img/toldo_verde.jpg') },
+        { id: 12, nombre: 'Toldo Verde y Cuadrado', precio: 600, img: require('./img/toldo_verde_cuadrado.jpg') },
 
     ];
 
