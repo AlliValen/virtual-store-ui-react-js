@@ -21,18 +21,18 @@ const ProductoItem = ({ producto }) => {
 const SillasExteriorProducto = () => {
     // Define una lista de productos con sus propiedades id, nombre, precio e imagen.
     const productos = [
-        { id: 1, nombre: '  ', precio: 500, img: require('./img/  ') },
-        { id: 2, nombre: '  ', precio: 400, img: require('./img/  ') },
-        { id: 3, nombre: '  ', precio: 300, img: require('./img/  ') },
-        { id: 4, nombre: '  ', precio: 450, img: require('./img/  ') },
-        { id: 5, nombre: '  ', precio: 350, img: require('./img/  ') },
-        { id: 6, nombre: '  ', precio: 600, img: require('./img/  ') },
-        { id: 7, nombre: '  ', precio: 600, img: require('./img/  ') },
-        { id: 8, nombre: '  ', precio: 600, img: require('./img/  ') },
-        { id: 9, nombre: '  ', precio: 600, img: require('./img/  ') },
-        { id: 10, nombre: '  ', precio: 600, img: require('./img/  ') },
-        { id: 11, nombre: '  ', precio: 600, img: require('./img/  ') },
-        { id: 12, nombre: '  ', precio: 600, img: require('./img/  ') },
+        { id: 1, nombre: 'Banca Blanca de Metal', precio: 500, img: require('./img/banca_blanca_metal.jpg') },
+        { id: 2, nombre: 'Banca Colgante', precio: 400, img: require('./img/banca_colgante.jpg') },
+        { id: 3, nombre: 'Banca Mesedora', precio: 300, img: require('./img/banca_mesedora.jpg') },
+        { id: 4, nombre: 'Banca de Metal Madera', precio: 450, img: require('./img/banca_metal_madera.jpg') },
+        { id: 5, nombre: 'Juego de Sillas Colgantes', precio: 350, img: require('./img/juego_sillas_colgantes.jpg') },
+        { id: 6, nombre: 'Mesedora de Madera', precio: 600, img: require('./img/mesedora_madera.jpg') },
+        { id: 7, nombre: 'Mesedora Redonda', precio: 600, img: require('./img/mesedora_redonda.jpg') },
+        { id: 8, nombre: 'Silla Acolchada', precio: 600, img: require('./img/silla_acolchada.jpg') },
+        { id: 9, nombre: 'Silla de Aluminio', precio: 600, img: require('./img/silla_aluminio.jpg') },
+        { id: 10, nombre: 'Silla Colgante', precio: 600, img: require('./img/silla_colgante.jpg') },
+        { id: 11, nombre: 'Silla Cuadrada', precio: 600, img: require('./img/silla_cuadrada.jpg') },
+        { id: 12, nombre: 'Silla de Madera', precio: 600, img: require('./img/silla_madera.jpg') },
 
     ];
 
