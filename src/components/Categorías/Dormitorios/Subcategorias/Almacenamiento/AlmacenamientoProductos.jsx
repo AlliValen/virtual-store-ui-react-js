@@ -39,7 +39,7 @@ const AlmacenamientoProductos = () => {
 
     // Renderiza el componente. Muestra un título y un grid de productos que son mapeados desde el array de productos.
     return (
-        <div className="almacenamiento-productos">
+        <div className="sala-productos">
             <div className="title-container"> {/* Contenedor del título */}
             <h1>Almacenamiento</h1>
             <div className="decorative-line"></div> {/* Línea decorativa */}
