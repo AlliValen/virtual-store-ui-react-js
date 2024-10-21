@@ -40,7 +40,7 @@ const AlmacenajeProducto = () => {
     return (
         <div className="comedores-productos">
              <div className="title-container"> {/* Contenedor del título */}
-            <h1>Accesorios</h1>
+            <h1>Almacenaje</h1>
             <div className="decorative-line"></div> {/* Línea decorativa */}
             </div>
             {/* Renderiza la lista de productos dentro de un contenedor de grid. */}
