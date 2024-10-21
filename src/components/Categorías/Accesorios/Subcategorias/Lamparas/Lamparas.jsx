@@ -17,7 +17,7 @@ const ProductoItem = ({ producto }) => {
     );
 };
 
-// Define el componente EspejosProductos que lista todos los productos de tipo Espejos.
+// Define el componente LamparasProducto que lista todos los productos de tipo Espejos.
 const LamparasProducto = () => {
     // Define una lista de productos con sus propiedades id, nombre, precio e imagen.
     const productos = [
