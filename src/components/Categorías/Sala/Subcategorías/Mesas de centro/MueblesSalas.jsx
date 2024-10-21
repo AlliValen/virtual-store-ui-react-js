@@ -1,8 +1,22 @@
 // Importa React para definir un componente funcional.
 import React from 'react';
 // Importa el componente MueblesSalaItems que se usará para renderizar cada producto.
-import MueblesSalaItems from './MueblesSalaItems';
-
+import './MueblesSala.css';
+import { FaShoppingCart } from 'react-icons/fa';
+// Componente ProductoItem
+const ProductoItem = ({ producto }) => {
+    return (
+        <div className="product-card">
+            <img src={producto.img} alt={producto.nombre} />
+            <h3>{producto.nombre}</h3>
+            <p>{producto.descripcion}</p>
+            <p>${producto.precio}</p>
+            <button className="add-to-cart-button">
+                <FaShoppingCart /> Agregar al carrito
+            </button>
+        </div>
+    );
+};
 // Define el componente MueblesSalaProductos que lista todos los productos de tipo MueblesSala.
 const MueblesSalaProductos = () => {
     // Define una lista de productos con sus propiedades id, nombre, precio e imagen.
@@ -24,14 +38,15 @@ const MueblesSalaProductos = () => {
     // Renderiza el componente. Muestra un título y un grid de productos que son mapeados desde el array de productos.
     return (
         <div className="sala-productos">
-            {/* Títulos de la sección */}
-            <h1>Productos de Sala</h1>
-            <h1>Muebles de Sala</h1>
-            {/* Renderiza la lista de productos dentro de un contenedor de grid. */}
+            <div className="title-container"> {/* Contenedor del título */}
+            <h1>Productos de Salas</h1>
+            <div className="decorative-line"></div> {/* Línea decorativa */}
+            </div>
             <div className="productos-grid">
-                {/* Recorre la lista de productos y para cada uno renderiza un componente MueblesSalaItem */}
                 {productos.map((producto) => (
-                    <MueblesSalaItems key={producto.id} producto={producto} />
+                    // Mapea los productos para crear un componente ProductoItem por cada uno.
+                    // Se pasa el producto como prop y se utiliza el id como clave.
+                    <ProductoItem key={producto.id} producto={producto} />
                 ))}
             </div>
         </div>
