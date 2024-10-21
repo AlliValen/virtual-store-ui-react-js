@@ -40,7 +40,7 @@ const ComodaEspejoProductos = () => {
 
     // Renderiza el componente. Muestra un título y un grid de productos que son mapeados desde el array de productos.
     return (
-        <div className="comoda-espejo-productos">
+        <div className="sala-productos">
            <div className="title-container"> {/* Contenedor del título */}
             <h1>Comódas con espejo</h1>
             <div className="decorative-line"></div> {/* Línea decorativa */}
