@@ -1,7 +1,22 @@
 // Importa React para definir un componente funcional.
 import React from 'react';
-// Importa el componente MesasNocheItem que se usará para renderizar cada producto.
-import MesasNocheItem from './MesasNocheItem';
+import './mesasnoche.css'; // Importa el archivo CSS correctamente
+import { FaShoppingCart } from 'react-icons/fa';
+
+// Componente ProductoItem
+const ProductoItem = ({ producto }) => {
+    return (
+        <div className="product-card">
+            <img src={producto.img} alt={producto.nombre} />
+            <h3>{producto.nombre}</h3>
+            <p>{producto.descripcion}</p>
+            <p>${producto.precio}</p>
+            <button className="add-to-cart-button">
+                <FaShoppingCart /> Agregar al carrito
+            </button>
+        </div>
+    );
+};
 
 // Define el componente MesasNocheProducto que lista todos los productos de tipo Mesas de Noche.
 const MesasNocheProducto = () => {
@@ -24,13 +39,15 @@ const MesasNocheProducto = () => {
     // Renderiza el componente. Muestra un título y un grid de productos que son mapeados desde el array de productos.
     return (
         <div className="mesas-noche-productos">
-            {/* Títulos de la sección */}
-            <h1>Catálogo de Mesas de Noche</h1>
+           <div className="title-container"> {/* Contenedor del título */}
+            <h1>Mesas de noche</h1>
+            <div className="decorative-line"></div> {/* Línea decorativa */}
+            </div>
             {/* Renderiza la lista de productos dentro de un contenedor de grid. */}
             <div className="productos-grid">
                 {/* Recorre la lista de productos y para cada uno renderiza un componente MesasNocheItem */}
                 {productos.map((producto) => (
-                    <MesasNocheItem key={producto.id} producto={producto} />
+                    <ProductoItem key={producto.id} producto={producto} />
                 ))}
             </div>
         </div>
