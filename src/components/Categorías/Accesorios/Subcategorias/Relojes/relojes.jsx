@@ -40,7 +40,7 @@ const Relojes = () => {
     return (
         <div className="sala-productos">
             <div className="title-container"> {/* Contenedor del título */}
-            <h1>Productos de Sala</h1>
+            <h1>Productos de Accesorios</h1>
             <div className="decorative-line"></div> {/* Línea decorativa */}
             </div>
             <div className="productos-grid">
