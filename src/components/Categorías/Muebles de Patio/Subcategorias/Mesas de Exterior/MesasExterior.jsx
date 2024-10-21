@@ -21,18 +21,18 @@ const ProductoItem = ({ producto }) => {
 const MesasExteriorProducto = () => {
     // Define una lista de productos con sus propiedades id, nombre, precio e imagen.
     const productos = [
-        { id: 1, nombre: '  ', precio: 500, img: require('./img/  ') },
-        { id: 2, nombre: '  ', precio: 400, img: require('./img/  ') },
-        { id: 3, nombre: '  ', precio: 300, img: require('./img/  ') },
-        { id: 4, nombre: '  ', precio: 450, img: require('./img/  ') },
-        { id: 5, nombre: '  ', precio: 350, img: require('./img/  ') },
-        { id: 6, nombre: '  ', precio: 600, img: require('./img/  ') },
-        { id: 7, nombre: '  ', precio: 600, img: require('./img/  ') },
-        { id: 8, nombre: '  ', precio: 600, img: require('./img/  ') },
-        { id: 9, nombre: '  ', precio: 600, img: require('./img/  ') },
-        { id: 10, nombre: '  ', precio: 600, img: require('./img/  ') },
-        { id: 11, nombre: '  ', precio: 600, img: require('./img/  ') },
-        { id: 12, nombre: '  ', precio: 600, img: require('./img/  ') },
+        { id: 1, nombre: 'Mesa con Banquitas', precio: 500, img: require('./img/mesa_banquitas.jpg') },
+        { id: 2, nombre: 'Mesa Desplegable', precio: 400, img: require('./img/mesa_desplegable.jpg') },
+        { id: 3, nombre: 'Mesa de Madera blanca', precio: 300, img: require('./img/mesa_madera_blanca.jpg') },
+        { id: 4, nombre: 'Mesa de Madera', precio: 450, img: require('./img/mesa_madera_tablas.jpg') },
+        { id: 5, nombre: 'Mesa de Madera', precio: 350, img: require('./img/mesa_madera.jpg') },
+        { id: 6, nombre: 'Mesa de Marmol', precio: 600, img: require('./img/mesa_marmol.jpg') },
+        { id: 7, nombre: 'Mesa Cuadrada Color Negro', precio: 600, img: require('./img/mesa_negra_cuadrada.jpg') },
+        { id: 8, nombre: 'Mesa de plastico', precio: 600, img: require('./img/mesa_plastico.jpg') },
+        { id: 9, nombre: 'Mesa Redonda de Madera', precio: 600, img: require('./img/mesa_redonda_madera.jpg') },
+        { id: 10, nombre: 'Mesa Color Verde', precio: 600, img: require('./img/mesa_verde.jpg') },
+        { id: 11, nombre: 'Mesa de Vidrio', precio: 600, img: require('./img/mesa_vidrio.jpg') },
+        { id: 12, nombre: 'Mesa de Madera', precio: 600, img: require('./img/mesa.jpg') },
 
     ];
 
