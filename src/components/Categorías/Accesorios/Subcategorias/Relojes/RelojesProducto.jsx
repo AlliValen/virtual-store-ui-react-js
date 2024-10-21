@@ -24,9 +24,10 @@ const RelojesProducto = () => {
     // Renderiza el componente. Muestra un título y un grid de productos que son mapeados desde el array de productos.
     return (
         <div className="relojes-productos">
-            {/* Títulos de la sección */}
+            <div className="title-container"> {/* Contenedor del título */}
             <h1>Accesorios</h1>
-            <h1>Relojes</h1>
+            <div className="decorative-line"></div> {/* Línea decorativa */}
+            </div>
             {/* Renderiza la lista de productos dentro de un contenedor de grid. */}
             <div className="productos-grid">
                 {/* Recorre la lista de productos y para cada uno renderiza un componente RelojesItem */}
