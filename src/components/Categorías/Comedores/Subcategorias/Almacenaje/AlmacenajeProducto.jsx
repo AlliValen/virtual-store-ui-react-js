@@ -22,18 +22,18 @@ const ProductoItem = ({ producto }) => {
 const AlmacenajeProducto = () => {
     // Define una lista de productos con sus propiedades id, nombre, precio e imagen.
     const productos = [
-        { id: 1, nombre: 'Almacenaje caitbrook', precio: 500, img: require('./img/almacenaje_caitbrook.jpg') },
-        { id: 2, nombre: 'Almacenaje Haddigan', precio: 300, img: require('./img/almacenaje_haddigan.jpg') },
-        { id: 3, nombre: 'Almacenaje havalance', precio: 150, img: require('./img/almacenaje_havalance.jpg') },
-        { id: 4, nombre: 'Almacenaje Johnelle', precio: 400, img: require('./img/almacenaje_johnelle.jpg') },
-        { id: 5, nombre: 'Almacenaje Moriville', precio: 250, img: require('./img/almacenaje_moriville.jpg') },
-        { id: 6, nombre: 'Almacenaje Ralene', precio: 700, img: require('./img/almacenaje_ralene.jpg') },
-        { id: 7, nombre: 'Almacenaje Realyn', precio: 120, img: require('./img/almacenaje_realyn.jpg') },
-        { id: 8, nombre: 'Almacenaje Tylercreek', precio: 400, img: require('./img/almacenaje_tylercreek.jpg') },
-        { id: 9, nombre: 'Almacenaje Valebeck', precio: 350, img: require('./img/almacenaje_valebeck.jpg') },
-        { id: 10, nombre: 'Almacenaje Whitesburg', precio: 90, img: require('./img/almacenaje_whitesburg.jpg') },
-        { id: 11, nombre: 'Almacenaje Bolanburg', precio: 50, img: require('./img/gabinete_bolanburg.jpg') },
-        { id: 12, nombre: 'Gabinete Tylercreek', precio: 200, img: require('./img/gabinete_tylercreek.jpg') },
+        { id: 1, nombre: 'Almacenaje caitbrook', precio: 300000, img: require('./img/almacenaje_caitbrook.jpg') },
+        { id: 2, nombre: 'Almacenaje Haddigan', precio: 350000, img: require('./img/almacenaje_haddigan.jpg') },
+        { id: 3, nombre: 'Almacenaje havalance', precio: 250000, img: require('./img/almacenaje_havalance.jpg') },
+        { id: 4, nombre: 'Almacenaje Johnelle', precio: 400000, img: require('./img/almacenaje_johnelle.jpg') },
+        { id: 5, nombre: 'Almacenaje Moriville', precio: 250000, img: require('./img/almacenaje_moriville.jpg') },
+        { id: 6, nombre: 'Almacenaje Ralene', precio: 400000, img: require('./img/almacenaje_ralene.jpg') },
+        { id: 7, nombre: 'Almacenaje Realyn', precio: 120000, img: require('./img/almacenaje_realyn.jpg') },
+        { id: 8, nombre: 'Almacenaje Tylercreek', precio: 400000, img: require('./img/almacenaje_tylercreek.jpg') },
+        { id: 9, nombre: 'Almacenaje Valebeck', precio: 350000, img: require('./img/almacenaje_valebeck.jpg') },
+        { id: 10, nombre: 'Almacenaje Whitesburg', precio: 150000, img: require('./img/almacenaje_whitesburg.jpg') },
+        { id: 11, nombre: 'Almacenaje Bolanburg', precio: 250000, img: require('./img/gabinete_bolanburg.jpg') },
+        { id: 12, nombre: 'Gabinete Tylercreek', precio: 200000, img: require('./img/gabinete_tylercreek.jpg') },
     ];
 
     // Renderiza el componente. Muestra un título y un grid de productos que son mapeados desde el array de productos.
