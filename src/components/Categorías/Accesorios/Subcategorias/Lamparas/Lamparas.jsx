@@ -21,10 +21,10 @@ const ProductoItem = ({ producto }) => {
 const LamparasProducto = () => {
     // Define una lista de productos con sus propiedades id, nombre, precio e imagen.
     const productos = [
-        { id: 1, nombre: 'Lámpara Biconica', precio: 500, img: require('./img/lampara_biconica.jpg') },
-        { id: 2, nombre: 'Lámpara Blanca', precio: 300, img: require('./img/lampara_blanca.jpg') },
-        { id: 3, nombre: 'Lámpara Cuadrada', precio: 150, img: require('./img/lampara_cuadrada.jpg') },
-        { id: 4, nombre: 'Lámpara de Luna', precio: 400, img: require('./img/lampara_de_luna.jpg') },
+        { id: 1, nombre: 'Lámpara Biconica', precio: 82.200, img: require('./img/lampara_biconica.jpg') },
+        { id: 2, nombre: 'Lámpara Blanca', precio: 72.500, img: require('./img/lampara_blanca.jpg') },
+        { id: 3, nombre: 'Lámpara Cuadrada', precio: 56.500, img: require('./img/lampara_cuadrada.jpg') },
+        { id: 4, nombre: 'Lámpara de Luna', precio: 20.000, img: require('./img/lampara_de_luna.jpg') },
         { id: 5, nombre: 'Lámpara de Mesa', precio: 250, img: require('./img/lampara_de_mesa.jpg') },
         { id: 6, nombre: 'Lámpara Flor', precio: 700, img: require('./img/lampara_flor.jpg') },
         { id: 7, nombre: 'Lámpara Irregular Blanca', precio: 120, img: require('./img/lampara_irregular_blanca.jpg') },
